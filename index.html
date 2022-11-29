@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #0d5757;
+        }
+    #input_box{
+     width: 30%;
+     height: 70px;
+     margin-left: 570px; 
+     background-color: #e0dbd4;
+     border: 2px solid #02021b;
+    }
+    #input_box input{
+        margin-top: 20px;
+        margin-left: 90px;
+        padding: 5px;
+        
+    }
+    #input_box button{
+        width: 50px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    #container div{
+        background-color: #d3ccc3;
+        text-align: center;
+        width: 50%;
+        margin-left: 350px; 
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 2px solid #022502;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #container div button{
+        cursor: pointer;
+    }
+   .heading{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: double underline;
+   }
+    
+    </style>
+</head>
+<body>
+    <h1 class="heading">TODO APP USING CLASS</h1>
+    <div id="input_box">
+     <input type="text" id="todo" placeholder="Add Task">
+    <button onclick="addTodo()">add</button>
+    </div>
+    <div id="container"></div>
+</body>
+</html>
+<script src="./todo.js"></script>
